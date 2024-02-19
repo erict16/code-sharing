@@ -1,0 +1,101 @@
+.imgBackground{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 98vh;
+    z-index: -1;
+}
+
+.title{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.editor_container{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 90vh;
+    background-color: white;
+}
+
+.button_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+@media only screen and (max-width: 1440px) {
+    .editor_container{
+        position: absolute;
+        top: 88%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 88vw;
+        height: 109vh;
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .editor_container{
+        position: absolute;
+        top: 82%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 88vw;
+        height: 109vh;
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .imgBackground{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 141vw;
+        height: 98vh;
+        z-index: -1;
+    }
+
+    
+    .title{
+        position: absolute;
+        top: 15%;
+        left: 73%;
+        transform: translate(-50%, -50%);
+        width: 34em;
+        height: 25em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .editor_container{
+        position: absolute;
+        top: 82%;
+        left: 71%;
+        transform: translate(-50%, -50%);
+        width: 137vw;
+        height: 112vh;
+        background-color: white;
+    }
+}
+
+
+
